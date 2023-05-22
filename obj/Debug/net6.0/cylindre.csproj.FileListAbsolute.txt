@@ -1,0 +1,15 @@
+C:\Users\noura\source\repos\cylindre\bin\Debug\net6.0\cylindre.exe
+C:\Users\noura\source\repos\cylindre\bin\Debug\net6.0\cylindre.deps.json
+C:\Users\noura\source\repos\cylindre\bin\Debug\net6.0\cylindre.runtimeconfig.json
+C:\Users\noura\source\repos\cylindre\bin\Debug\net6.0\cylindre.dll
+C:\Users\noura\source\repos\cylindre\bin\Debug\net6.0\cylindre.pdb
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\cylindre.csproj.AssemblyReference.cache
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\cylindre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\cylindre.AssemblyInfoInputs.cache
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\cylindre.AssemblyInfo.cs
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\cylindre.csproj.CoreCompileInputs.cache
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\cylindre.dll
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\refint\cylindre.dll
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\cylindre.pdb
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\cylindre.genruntimeconfig.cache
+C:\Users\noura\source\repos\cylindre\obj\Debug\net6.0\ref\cylindre.dll
