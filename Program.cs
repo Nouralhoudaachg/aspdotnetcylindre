@@ -12,6 +12,7 @@ namespace cylindre
     public delegate double airdelegate(double pi, int rayon);
     public delegate double volumedelegate(int h, int rayon);
     public delegate double surfacedelegate(int rayon, int h);
+    public delegate double surfacelateraledelegate(int rayon, int h);
     internal class Cylindre
     {
 
@@ -34,6 +35,12 @@ namespace cylindre
             return (2 * air(pi, rayon) + 2 * pi * rayon * h);
 
         }
+        //nouvelle fonctionnalite
+        public double CalculerSurfaceLaterale(int rayon,int h)
+        {
+            double surfaceLaterale = 2 * Math.PI * rayon * h;
+            return surfaceLaterale;
+        }
 
 
         static void Main(string[] args)
@@ -47,9 +54,15 @@ namespace cylindre
             double var1 = c1.volume(4, 6);
             Console.WriteLine(var1);
 
-            double var2 = c1.volume(6, 4);
+            /*double var2 = c1.volume(6, 4);
+            Console.WriteLine(var2);*/
+
+            double var2 = c1.surface(6, 4);
             Console.WriteLine(var2);
 
+
+            double var3 = c1.CalculerSurfaceLaterale(3, 5);
+            Console.WriteLine(var3);
 
 
             //instanciation delegate
@@ -60,6 +73,8 @@ namespace cylindre
 
             surfacedelegate surfaced = new surfacedelegate(c1.surface);
 
+            surfacelateraledelegate surfaceL = new  surfacelateraledelegate(c1.CalculerSurfaceLaterale);
+
 
 
             //appelation delegate
@@ -69,6 +84,8 @@ namespace cylindre
             volumed.Invoke(6, 4);
 
             surfaced.Invoke(4, 6);
+
+            surfaceL.Invoke(6, 4);
 
 
 
